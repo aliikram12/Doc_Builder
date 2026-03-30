@@ -2,7 +2,10 @@
 module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
+    "./public/index.html"
   ],
+  // Enable JIT mode for smaller production builds
+  mode: 'jit',
   theme: {
     extend: {
       keyframes: {
